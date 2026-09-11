@@ -17,7 +17,7 @@ body{
     margin-bottom: 10px;
 }
 
-.uninuseletter-lists>*{
+.uninuseletter-lists>*:last-child{
     padding-right: 0;
     border-right: none;
 }
