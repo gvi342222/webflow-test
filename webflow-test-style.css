@@ -1,9 +1,2 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css');
 @import url('https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
-
-
-body {
-    color: #fff;
-    background: green;
-    font-size: 16px;
-}
