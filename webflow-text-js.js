@@ -2,5 +2,5 @@ import slick from 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick
 import fancybox from 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js';
 
 jQuery(document).ready(function ($) {
-    Fancybox.bind("[data-fancybox]", {});
+    fancybox.bind("[data-fancybox]", {});
 }
