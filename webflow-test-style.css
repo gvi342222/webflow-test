@@ -5,3 +5,10 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.cmn-btn-dark-outer:hover .cmn-btn-dark{
+    opacity: 0;
+}
+.cmn-btn-dark-outer:hover .play-icon-btn{
+    filter: brightness(0) invert(1);
+}
