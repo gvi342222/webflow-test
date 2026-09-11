@@ -3,4 +3,14 @@ import fancybox from 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancyb
 
 jQuery(document).ready(function ($) {
     fancybox.bind("[data-fancybox]", {});
+
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $(".main-header").addClass("fixed");
+        }
+        else {
+            $(".main-header").removeClass("fixed");
+        }
+    })
 })
