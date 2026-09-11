@@ -1,4 +1,1 @@
-body{
-    color: #fff;
-    background: #000;
-}
+import slick from 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js';
