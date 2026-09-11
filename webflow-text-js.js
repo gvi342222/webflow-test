@@ -4,8 +4,6 @@ import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fa
  
 
 jQuery(document).ready(function ($) {
-    fancybox.bind("[data-fancybox]", {});
-
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll > 0) {
@@ -14,5 +12,7 @@ jQuery(document).ready(function ($) {
         else {
             $(".main-header").removeClass("fixed");
         }
-    })
+    });
+    
+    Fancybox.bind("[data-fancybox]", {});
 })
