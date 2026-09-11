@@ -7,8 +7,12 @@ body{
 }
 
 .cmn-btn-dark-outer:hover .cmn-btn-dark{
-    opacity: 0;
+    background-color: #D7AC28;
 }
 .cmn-btn-dark-outer:hover .play-icon-btn{
     filter: brightness(0) invert(1);
+}
+
+.banner-para>*:not(:last-child){
+    margin-bottom: 10px;
 }
