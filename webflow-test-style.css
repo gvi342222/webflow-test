@@ -16,3 +16,8 @@ body{
 .banner-para>*:not(:last-child){
     margin-bottom: 10px;
 }
+
+.uninuseletter-lists>*{
+    padding-right: 0;
+    border-right: none;
+}
